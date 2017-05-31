@@ -281,6 +281,7 @@ var methodsWithBody = [][]byte{
 	[]byte("PUT"),
 	[]byte("PATCH"),
 	[]byte("CONNECT"),
+	[]byte("GET"),
 }
 
 func (t *TCPMessage) updateMethodType() {

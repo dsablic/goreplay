@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/buger/goreplay/proto"
-	raw "github.com/buger/goreplay/raw_socket_listener"
+       raw "github.com/dsablic/goreplay/raw_socket_listener"
 	"log"
 	"net"
 	"time"
